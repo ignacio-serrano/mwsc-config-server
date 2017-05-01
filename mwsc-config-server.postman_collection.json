@@ -1,0 +1,28 @@
+{
+	"variables": [],
+	"info": {
+		"name": "mwsc-config-server",
+		"_postman_id": "422a4278-7e3e-544c-faaa-819a813f0afc",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/application/default",
+			"request": {
+				"url": "http://localhost:8001/application/default",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic dXNlcjphNjFiYmNkZS0zMDZiLTQwOWItYmZmNi1mOTcxMDU1YWM3MDM=",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
